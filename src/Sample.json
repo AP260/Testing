@@ -1,0 +1,37 @@
+{
+    "tutor1": {
+        "Name": "Andrew",
+        "Course": "CSE100",
+        "Phone_Number": "928-234-1234",
+        "Discord": "Someone#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg"
+    },
+    "tutor2": {
+        "Name": "Andy",
+        "Course": "CSE101",
+        "Phone_Number": "342-654-3245",
+        "Discord": "Pog#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg"
+    },
+    "tutor3": {
+        "Name": "Aaron",
+        "Course": "CSE110",
+        "Phone_Number": "234-988-0984",
+        "Discord": "Hi#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg"
+    },
+    "tutor4": {
+        "Name": "Alex",
+        "Course": "CSE100",
+        "Phone_Number": "911-234-6923",
+        "Discord": "No#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg"
+    },
+    "tutor5": {
+        "Name": "Alice",
+        "Course": "CSE167",
+        "Phone_Number": "420-643-0762",
+        "Discord": "Yes#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg"
+    }
+}
