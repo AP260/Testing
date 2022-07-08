@@ -11,13 +11,14 @@ import myjson from "./Sample.json";
     "Discord": "Someone#5432",
     "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg"
 }*/
+//const file = JSON.parse(myjson);
 
 const App = () => {
-    const [tutors, setTutors] = useState([]);
-    const [searchTerm, setSearchTerm] = '';
+    //const [tutors, setTutors] = useState([]);
+    const [searchTerm, setSearchTerm] = useState("");
 
     //grab tutor from db
-    const searchTutor = async(tutor) => {
+    /*const searchTutor = async(tutor) => {
         const response = await fetch(``);
         const data = await response.json();
 
@@ -26,7 +27,7 @@ const App = () => {
 
     useEffect(() => {
         searchTutor('')
-    }, []);
+    }, []);*/
     return (
         <div className="title">
             <h1>Tutors</h1>
@@ -37,16 +38,27 @@ const App = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 />
-                <button onClick={() => searchTutor(searchTerm)}>Search</button>
+                {
+                /*    myjson.filter(str => {
+                        if (searchTerm === "") {
+                            return str;
+                        }
+                        else if (str.course.toLowerCase().includes(searchTerm.toLowerCase())) {
+                            return str;
+                        } 
+                    }).map((str, index) => (
+                        <div className="container" key={index}>
+                            <TutorBox tutor={myjson.post} />
+                        </div>
+                    ))*/
+                }
+            </div>
+            <div className="container">
+                {myjson.tutor.map((tutor) => (
+                        <TutorBox tutor={tutor} />
+                ))}
             </div>
 
-            <div className="container">
-                <TutorBox tutor={myjson.tutor1} />
-                <TutorBox tutor={myjson.tutor2} />
-                <TutorBox tutor={myjson.tutor3} />
-                <TutorBox tutor={myjson.tutor4} />
-                <TutorBox tutor={myjson.tutor5} />
-            </div>
         </div>
     );
 }
