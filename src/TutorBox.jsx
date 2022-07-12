@@ -5,15 +5,16 @@ const TutorBox = ({ tutor }) => {
         <div className="tutor">
             <div>
                 <h1>{tutor.Name}
-                    <div className="pfp">
-                        <img src={tutor.Pfp}></img>
+                    <div className="vl">
                     </div>
+                    <img src={tutor.Pfp} className="pfp"></img>
                 </h1>
             </div>
             <div>
                 <h4>{tutor.Course}</h4>
+                <p>{tutor.Email}</p>
                 <p>{tutor.Phone_Number}</p>
-                <p>{tutor.Discord}</p>
+                <p className="biotxt">{tutor.Bio}</p>
             </div>
         </div>
     )

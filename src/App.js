@@ -38,22 +38,8 @@ const App = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 />
-                {
-                /*    myjson.filter(str => {
-                        if (searchTerm === "") {
-                            return str;
-                        }
-                        else if (str.course.toLowerCase().includes(searchTerm.toLowerCase())) {
-                            return str;
-                        } 
-                    }).map((str, index) => (
-                        <div className="container" key={index}>
-                            <TutorBox tutor={myjson.post} />
-                        </div>
-                    ))*/
-                }
             </div>
-            <div className="container">
+            <div>
                 {myjson.tutor.map((tutor) => (
                         <TutorBox tutor={tutor} />
                 ))}
