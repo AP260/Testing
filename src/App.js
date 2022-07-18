@@ -33,11 +33,13 @@ const App = () => {
             <h1>Tutors</h1>
         
             <div className="search">
+                {/*
                 <input 
                 placeholder="Search Course"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                />
+                /> 
+                */}
             </div>
             <div>
                 {myjson.tutor.map((tutor) => (
