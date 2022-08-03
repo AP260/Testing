@@ -48,6 +48,16 @@
         "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg",
         "Email": "alice@ucsd.edu",
         "Bio": "Hello, feel free to ask for help!"
+    },
+    {
+        "ID": "6",
+        "Name": "Alvin",
+        "Course": "CSE167",
+        "Phone_Number": "453-643-0762",
+        "Discord": "Kjkdf#5432",
+        "Pfp": "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg",
+        "Email": "Alvin@ucsd.edu",
+        "Bio": "Hello, feel free to ask for help!"
     }
     ],
     "professorReviews": [{

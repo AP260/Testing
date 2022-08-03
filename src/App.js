@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import TutorBox from "./TutorBox";
 import myjson from "./Sample.json";
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 
 /*const tutor1 = {
@@ -29,9 +31,10 @@ const App = () => {
         searchTutor('')
     }, []);*/
     return (
-        <div className="title">
-            <h1>Tutors</h1>
-        
+        <div>
+            <div class="pt-4 pb-4 text-center text-secondary">
+                <h1>Tutors</h1>
+            </div>
             <div className="search">
                 {/*
                 <input 
@@ -41,7 +44,7 @@ const App = () => {
                 /> 
                 */}
             </div>
-            <div>
+            <div class="row justify-content-center">
                 {myjson.tutor.map((tutor) => (
                         <TutorBox tutor={tutor} />
                 ))}
